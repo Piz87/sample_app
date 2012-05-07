@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
+gem 'bootstrap-sass', '2.0.0'
+
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.9.0'
@@ -24,3 +26,4 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+
